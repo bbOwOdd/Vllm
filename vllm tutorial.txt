@@ -1,0 +1,11 @@
+#requirements
+OS: Linux
+Python version: 3.9 – 3.12
+GPU: compute capability 7.0 or higher (V100, A100, RTX 2060 up, etc.)
+https://developer.nvidia.com/cuda-gpus
+Cuda version: offical version 12.1 up (but only 12.4 up is available)
+
+#create virtual environment and install vllm
+conda create -n myenv python=3.12 -y
+conda activate myenv
+pip install vllm
