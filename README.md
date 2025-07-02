@@ -7,7 +7,7 @@ conda activate myenv \
 pip install vllm
 
 ## Requirements
-OS: Linux
+OS: Linux \
 Python version: 3.9 – 3.12 \
 GPU: compute capability 7.0 or higher ([V100, A100, RTX 2060 up, etc.](https://developer.nvidia.com/cuda-gpus))  \
 Cuda version: offical version above 12.1 (but only above 12.4 is available)
