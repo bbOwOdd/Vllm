@@ -4,7 +4,7 @@ A high-throughput and memory-efficient inference and serving engine for LLMs.
 ## Tutorial
 conda create -n myenv python=3.12 -y \
 conda activate myenv \
-pip install vllm \
+pip install vllm
 
 ## Requirements
 OS: Linux
